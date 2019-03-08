@@ -1,0 +1,30 @@
+body {
+background: url('backgroundgradient.png') repeat-x;
+text-align: center;
+}
+#main{
+width: 1000px;
+height: 600px;
+background: url('maingradient.png') repeat-x;
+margin:25px auto;
+border: solid 2px #ff3819;
+border-bottom: solid 0px;
+padding: 10px; 
+}
+h1{
+text-align: center;
+font-family:"Times New Roman";
+font: 24pt;
+color: #ff3819;
+}
+hr{
+height: 2px;
+color: #ff3819;
+}
+p{
+font-family:"Calibri";
+font-size: 12pt;
+text-align: left;
+text-indent: 48px;
+color: #ff3819;
+}
