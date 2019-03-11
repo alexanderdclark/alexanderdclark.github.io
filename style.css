@@ -1,30 +1,60 @@
 body {
-background: url('backgroundgradient.png') repeat-x;
+background: url('backgroundgradient.png') repeat; 
 text-align: center;
 }
 #main{
 width: 1000px;
-height: 600px;
-background: url('maingradient.png') repeat-x;
+height: 900px;
 margin:25px auto;
-border: solid 2px #ff3819;
-border-bottom: solid 0px;
+border: solid 0px #ffffff;
 padding: 10px; 
 }
 h1{
 text-align: center;
 font-family:"Times New Roman";
-font: 24pt;
-color: #ff3819;
+font-size: 12pt;
+color: #ffffff;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 hr{
-height: 2px;
-color: #ff3819;
+height: solid 2px;
+color: #000000;
+}
+h2{
+text-align: center;
+font-family:"Times New Roman";
+font-size: 20pt;
+color: #ffffff;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+h3{
+text-align: center;
+font-family:"Times New Roman";
+font-size: 12pt;
+color: #ffffff;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 p{
 font-family:"Calibri";
 font-size: 12pt;
-text-align: left;
+text-align: center;
 text-indent: 48px;
-color: #ff3819;
+color: #ffffff;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
